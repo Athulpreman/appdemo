@@ -51,11 +51,11 @@ public class MainActivity extends AppCompatActivity
                 f = e6.getText().toString();
                 g = e7.getText().toString();
 
-                
+
                 if ((a.equals("Athul")) && (c.equals("12345")))
                 {
 
-                    Toast.makeText(getApplicationContext(), "Login Sussefull", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Login Sussefull..", Toast.LENGTH_SHORT).show();
 
                     Intent i=new Intent(getApplicationContext(),Welcome.class);
                     startActivity(i);
