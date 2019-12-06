@@ -1,7 +1,7 @@
 <LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#51DD61"
+    android:background="#C6C9C6"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center">
@@ -9,26 +9,87 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"/>
+        android:text="Studentname"/>
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/stdname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"/>
+        android:text="Admno"/>
+
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/amno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rollno"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/rolno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"/>
+
+    <EditText
+        android:id="@+id/clg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="parent"/>
+
+    <EditText
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile no"/>
+
+    <EditText
+        android:id="@+id/mob"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place"/>
+
+    <EditText
+        android:id="@+id/plc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textdesign"/>
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"/>
+        android:text="login"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reg"/>
+
 
 
 </LinearLayout>

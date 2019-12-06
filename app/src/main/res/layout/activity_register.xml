@@ -1,0 +1,83 @@
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+    <TextView
+        android:text="Name"
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/nametext"
+        android:id="@+id/nameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Roll"
+        android:layout_below="@+id/nameedit"
+        android:id="@+id/rolltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/rolltext"
+        android:id="@+id/rolledit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/rolledit"
+        android:text="College"
+        android:id="@+id/clgtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@id/clgtext"
+        android:id="@+id/clgedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adm no."
+        android:id="@+id/admtext"
+        android:layout_below="@+id/clgedit"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admedit"
+        android:layout_below="@+id/admtext"/>
+    <TextView
+        android:layout_below="@+id/admedit"
+        android:text="Pass"
+        android:id="@+id/passtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/passtext"
+        android:id="@+id/passedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/passedit"
+        android:text="Confirm password"
+        android:id="@+id/confirmtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/confirmtext"
+        android:id="@+id/confirmedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_below="@id/confirmedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/Regbutton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotologin"
+        android:text="Go to login"
+        android:layout_below="@+id/Regbutton"/>
+
+
+</RelativeLayout>
